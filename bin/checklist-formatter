@@ -6,7 +6,7 @@ use strict;
 use Getopt::Long;
 use Pod::Usage;
 
-use version; our $VERSION = qv('0.0.3');
+use version; our $VERSION = qv('0.0.4');
 
 my %opt = (
     author   => '',
@@ -235,7 +235,7 @@ __END__
 
 =head1 NAME
 
-chklst-otl2latex - convert vimoutline to LaTeX
+checklist-formatter - convert vimoutline to LaTeX
 
 =head1 SYNOPSIS
 

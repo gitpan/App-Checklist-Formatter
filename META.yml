@@ -1,6 +1,6 @@
 ---
 name: App-Checklist-Formatter
-version: 0.0.3
+version: 0.0.4
 author:
   - 'Mathias Weidner <mamawe@cpan.org>'
 abstract: Format checklists
