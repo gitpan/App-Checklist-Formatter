@@ -16,6 +16,8 @@ my $builder = Module::Build->new(
     license             => 'perl',
     module_name         => 'App::Checklist::Formatter',
     requires => {
+	# Perls prior to 5.6 don't support the three-argument form of open.
+	'perl'       => '5.6.0',
         'version'    => 0,
     },
     script_files	=> [ 'bin/checklist-formatter' ],
